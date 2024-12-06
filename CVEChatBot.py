@@ -17,7 +17,7 @@ from reportlab.lib import colors
 import mysql.connector
 
 
-TOKEN: Final = '6824149359:AAFMlztooYJeLgjWYG1IalhgXAu35l_zo64'
+TOKEN: Final = 'YOUR_TELEGRAM_BOT_TOKEN'
 BOT_USERNAME: Final = '@CVEChatBot'  # For group chat
 
 database_connection = mysql.connector.connect(
